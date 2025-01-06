@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First git</title>
-</head>
-<body>
-    firs git
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List styling inn css</title>
+    <style>
+      nav ul li {
+        /* list-style: lower-alpha; */
+        list-style-position: inside;
+        background-color: yellow;
+        /* border: 2px solid black; */
+        list-style: none;
+        padding: 34px;
+      }
+      /* li:first-child:hover{
+    background-color: red;
+} */
+      li:hover {
+        background-color: red;
+      }
+      li:active {
+        background-color: blue;
+      }
+
+      ul {
+        display: flex;
+        margin: 34px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="red">
+        <li>Home</li>
+        <li>contact</li>
+        <li>Address</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </body>
 </html>
